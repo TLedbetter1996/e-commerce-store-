@@ -43,12 +43,16 @@ p {
  
 }
 .slider {
-  position: relative;
+  position: absolute;
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  top: 50px;
+  left: 300px;
+ 
 }
+
 
 .image {
   width: 1000px;
@@ -92,7 +96,20 @@ p {
 h2 {
   position: absolute;
   align-items: center;
-  top: 500px;
+  text-align: center;
+  top: 400px;
+  left: 100px;
   font-family:  American Typewriter, serif; 
+  font-size: 25px;
   color: yellow; 
+}
+
+.background {
+  background-image: url(https://cdn.pixabay.com/photo/2017/08/13/18/31/space-2638158_960_720.jpg);
+ position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+
 }

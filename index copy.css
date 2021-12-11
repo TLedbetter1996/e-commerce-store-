@@ -1,0 +1,167 @@
+h1 {
+    text-align: center;
+    font-family: cursive;
+    font-weight: italic;
+    margin-bottom: 50px;
+    margin-top: 25px; 
+}
+
+footer {
+    background-color: blueviolet;
+}
+
+nav {
+    background-color: blueviolet;
+    height: 50px; 
+    font-size: small;
+    position: sticky;
+    position: -webkit-sticky;
+    align-items: center;
+
+}
+
+.nav-item {
+  border-radius: 8px;
+  color: skyblue;
+
+}
+
+.nav-item:hover {
+  
+  background-color: skyblue;
+  border: 2px solid #555555;
+  text-align: center; 
+  display: inline-block;
+  transition-duration: 0.4s;
+  cursor: pointer; 
+  
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    background-image: url("images/milky-way-2695569_1280.jpeg")
+     
+  }
+  
+  .price {
+    color: gold;
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 3px;
+    color: white;
+    background-color: blue;
+    text-align: center;
+    cursor: pointer;
+    width: 50%;
+    font-size: 18px;
+  }
+
+  .card img {
+    width:50%;
+    height: 25%;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 50px;
+    
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+
+  .card p {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: medium;
+  }
+
+  .card h1 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: medium;
+    margin-bottom: 0px;
+  }
+
+
+  hr { 
+    border: 5px solid blueviolet;
+    margin-top: 40px; 
+  }
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place *
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 80%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+footer {
+  background-color: blueviolet;
+}
+
+footer p {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: medium;
+    color: skyblue;
+}
+
+footer p3 {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: medium;
+    color: skyblue;
+}

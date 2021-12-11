@@ -1,4 +1,4 @@
-/* import { makeStyles} from '@material-ui/core/styles';
+ import { makeStyles} from '@material-ui/core/styles';
 
 
 export default makeStyles((theme) => ({
@@ -11,9 +11,11 @@ export default makeStyles((theme) => ({
     },
 
     "image": {
-    width: '1000px',
-    height: '600px',
-    borderRadius: '10px'
+    width: '10px',
+    height: '60px',
+    borderRadius: '100px',
+   
+
 
     },
 
@@ -42,15 +44,15 @@ export default makeStyles((theme) => ({
     },
 
     "slide":{
-        "opacity":"0",
-         "transitionDuration":"1s ease"
-        },
+    opacity:"0",
+    transitionDuration:"1s ease"
+    },
 
     "slide_active":{
-        "opacity":"1",
-        "transitionDuration":"1s",
-        "transform":"scale(1.08)"
+    opacity:"1",
+    transitionDuration:"1s",
+    transform:"scale(1.08)"
     }
 
     
-  })); */
+  })); 
