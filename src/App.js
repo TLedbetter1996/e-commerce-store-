@@ -1,7 +1,7 @@
 import { commerce } from './lib/commerce'; //will work on backend 
 import React, {useState, useEffect } from 'react'; 
 // the below line imports components with one line of code 
-import { Products, Navbar, Cart, Checkout} from './components';
+import { Products, Navbar, Cart, Checkout, About} from './components';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import { CssBaseline } from '@material-ui/core';
 
@@ -84,28 +84,32 @@ function App() {
                 <CssBaseline /> 
                 <Navbar totalItems={cart.total_items} handleDrawerToggle={handleDrawerToggle} /> 
                 <Switch>
+                 {/* <Route exact path="/about"> 
+                    <About/> 
+                  </Route> */}
                     <Route exact path ="/"> 
                       <Products products={products} onAddToCart={handleAddToCart} handleUpdateCartQty/>
                     </Route> 
                     
+                  
                     <Route exact path = "/cart"> 
-                      
+      
                         <Cart 
                         cart={cart}
                         handleUpdateCartQty={handleUpdateCartQty}
                         handleRemoveFromCart={handleRemoveFromCart}
                         handleEmptyCart={handleEmptyCart}
-                      
                       />
                     </Route> 
+
                     <Route exact path="/checkout" exact>
                     <Checkout cart={cart} order={order} onCaptureCheckout={handleCaptureCheckout} error={errorMessage} />
                     </Route>
-                    
+
                 </Switch> 
+           
             </div>
           </Router>
     );
   }
-
 export default App;

@@ -15,9 +15,9 @@ const Navbar = ({ totalItems }) => {
         <div>
                 <AppBar position="fixed" className={classes.appBar} color="inherit">
                     <Toolbar>
-                            <Typography component={Link} to="/" variant="h6" className={classes.title} color="inherit">
-                                <img src={logo} alt="Commerce.js" height="25px" className={classes.image} /> 
-                                Lxcky Savage Shop 
+                            <Typography component={Link} to="/"  className={classes.title} color="inherit">
+                                <img src={logo} alt="Commerce.js" height="100px"  className={classes.image} /> 
+                                <h1 fontFamily="Snell Roundhand, cursive">The Lxcky Savage Shop </h1>
                             </Typography>
                             <div className={classes.grow} /> {/* grow means this will take as much space as it needs to the left */}
                             {location.pathname === '/' &&  (
